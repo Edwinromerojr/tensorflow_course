@@ -68,25 +68,25 @@ print(result_add)
 print(result_sub)
 print(result_mul)
 print(result_div)
-# ------------------------------
+print("------------------------------")
 print(result_square)
 print(result_sqrt)
 print(result_exp)
 print(result_log)
-# ------------------------------
+print("------------------------------")
 print(result_sum)
 print(result_mean)
 print(result_max)
-# ------------------------------
+print("------------------------------")
 print(result_matmul)
 print(result_transpose)
 print(result_inverse)
-# ------------------------------
+print("------------------------------")
 print(element)
 print(slice_tensor)
 
 
-# ----------------------------------------------
+print("------------------------------")
 
 # Broadcasting in arithmetic operations
 tensor_c = tf.constant([1, 2], dtype=tf.float32)
